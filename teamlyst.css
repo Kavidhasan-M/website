@@ -181,6 +181,11 @@ footer p {
     margin-right: 8px;
     color: #fff;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.contact a.mail:hover {
+    background-color: #15171a;
 }
 
 
@@ -190,6 +195,12 @@ footer p {
     border-radius: 100px;
     color: #fff;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.contact a.linkedin:hover {
+    background-color: #1662d3;
+
 }
 
 
