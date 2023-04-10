@@ -1,0 +1,124 @@
+@font-face {
+    font-family: hg-medium;
+    src: url('./assets/Garnett-Medium.ttf');
+}
+
+@font-face {
+    font-family: hg-regular;
+    src: url('./assets/Garnett-Regular.ttf');
+}
+
+@font-face {
+    font-family: fav;
+    src: url('./assets/fav2.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EFE4 !important;
+    font-family: fav !important;
+}
+
+nav,
+header,
+main,
+footer {
+    padding: 1% 8% !important;
+}
+
+nav {
+    padding-top: 30px !important;
+}
+
+nav.bg-body-tertiary {
+    background-color: transparent !important;
+
+}
+
+button.navbar-toggler,
+button.navbar-toggler:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 8px;
+}
+
+img.mypic{
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content-data{
+    padding: 0px 12px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p.hideit{
+    max-width: 300px;
+    visibility: hidden;
+}
+    
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px) and 
+(-webkit-min-device-pixel-ratio: 1) {
+
+    img.mypic {
+        width: 600px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    nav,
+    header,
+    main,
+    footer {
+        padding: 1% 3% !important;
+    }
+
+    .navbar-collapse {
+        background-color: aliceblue !important;
+        text-align: center;
+    }
+
+    img.mypic{
+        width: 370px !important;
+        position: unset;
+    }
+
+    p.hideit{
+        display: none;
+    }
+}
