@@ -48,6 +48,8 @@ button.navbar-toggler:focus {
     padding: 8px;
 }
 
+
+
 img.mypic{
     width: 600px;
     position: absolute;
@@ -82,6 +84,11 @@ and (max-device-width: 1024px) and
         width: 600px !important;
     }
 
+        .navbar-collapse {
+            background-color: white !important;
+            text-align: center;
+        }
+
 }
 
 
@@ -109,7 +116,7 @@ and (max-device-width: 1024px) and
     }
 
     .navbar-collapse {
-        background-color: aliceblue !important;
+        background-color: white !important;
         text-align: center;
     }
 

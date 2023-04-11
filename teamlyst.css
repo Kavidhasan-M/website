@@ -44,6 +44,11 @@ nav.bg-body-tertiary {
 
 }
 
+.navbar-collapse {
+    background-color: white !important;
+    text-align: center;
+}
+
 button.navbar-toggler,
 button.navbar-toggler:focus {
     border: none !important;
@@ -205,6 +210,60 @@ footer p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+    .navbar-collapse {
+        background-color: white !important;
+        text-align: center;
+    }
+
+    .content-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .screens {
+        margin-top: 70px;
+
+    }
+
+    .row-text {
+        max-width: unset;
+    }
+
+    .row-text-head {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .content-row .image {
+        padding: unset;
+    }
+
+    .row-para {
+        max-width: unset;
+    }
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
 
@@ -216,7 +275,7 @@ footer p {
     }
 
     .navbar-collapse {
-        background-color: aliceblue !important;
+        background-color: white !important;
         text-align: center;
     }
 
