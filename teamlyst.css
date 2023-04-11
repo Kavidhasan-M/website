@@ -44,10 +44,7 @@ nav.bg-body-tertiary {
 
 }
 
-.navbar-collapse {
-    background-color: white !important;
-    text-align: center;
-}
+
 
 button.navbar-toggler,
 button.navbar-toggler:focus {
