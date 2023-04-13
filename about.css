@@ -69,6 +69,10 @@ p.hideit{
     visibility: hidden;
 }
     
+p.greet{
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
 
@@ -122,7 +126,10 @@ and (max-device-width: 1000px) and
 
     img.mypic{
         width: 370px !important;
+        text-align: center;
         position: unset;
+        top: unset;
+        left: unset;
     }
 
     p.hideit{
