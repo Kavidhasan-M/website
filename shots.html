@@ -22,6 +22,45 @@
             width: 100%;
             border-radius: 5px;
         }
+        
+        .proto-link{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+            padding: 24px 16px;
+            border-radius: 5px;
+            background-color: #d0e2ed;
+        }
+
+        .proto-link div p{
+            margin-bottom: 0% !important;
+        }
+
+        .proto-link div a{
+            background-color: #176ae5;
+            padding: 12px 24px;
+            border-radius: 100px;
+            color: #fff;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+        }
+
+        .proto-link div a:hover{
+            background-color: #1662d3;
+        }
+
+        @media only screen and (max-width: 600px){
+
+
+            .proto-link{
+                flex-direction: column;
+            }
+
+            .proto-link div p{
+                margin-bottom: 16px !important;
+            }
+        }
+
     </style>
 </head>
 
@@ -72,6 +111,20 @@
 
 
     <main>
+        <div class="content-data">
+            <div class="thumbnail" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+                <img src="./images/AC Controller.png" alt="">
+                <div class="proto-link">
+                    <div>
+                        <p>You can have look at the prototype</p>
+                    </div>
+                    <div>
+                        <a href="https://www.figma.com/file/Jyx5FqZsRQVutviJbTeyd1/AC-Controller-App?type=design&node-id=0%3A1&t=YWB4SyImAqJZQBip-1" target="_blank">View protoype</a>
+                    </div>
+
+                </div>
+            </div>
         <div class="content-data">
             <div class="thumbnail" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
                 data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
